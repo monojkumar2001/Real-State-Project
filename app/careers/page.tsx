@@ -83,7 +83,7 @@ export default function CareersPage() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-blue-900 via-blue-800 to-blue-700 text-white py-20">
+      <section className="bg-gradient-to-r from-primary-900 via-primary-800 to-primary-700 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <Briefcase className="h-16 w-16 mx-auto mb-6" />
           <h1 className="text-4xl md:text-6xl font-bold mb-6">Join Our Team</h1>
@@ -278,7 +278,7 @@ export default function CareersPage() {
                 </div>
               </div>
 
-              <div className="bg-blue-50 border border-blue-200 rounded-lg p-6">
+              <div className="bg-primary-50 border border-primary-200 rounded-lg p-6">
                 <h3 className="text-lg font-semibold text-primary-900 mb-2">Questions?</h3>
                 <p className="text-primary-800 text-sm mb-4">
                   Have questions about working at PrimeRealty or our application process?

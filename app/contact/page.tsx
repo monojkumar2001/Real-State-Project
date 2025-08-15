@@ -128,7 +128,7 @@ export default function ContactPage() {
             </div>
 
             {/* FAQ Quick Links */}
-            <div className="bg-blue-50 border border-blue-200 rounded-lg p-6">
+            <div className="bg-primary-50 border border-primary-200 rounded-lg p-6">
               <h3 className="text-lg font-semibold text-primary-900 mb-3">Frequently Asked Questions</h3>
               <p className="text-primary-700 text-sm mb-4">
                 Before contacting us, you might find answers to common questions in our FAQ section.

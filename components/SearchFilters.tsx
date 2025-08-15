@@ -33,7 +33,7 @@ export default function SearchFilters({ filters, onFiltersChange, onSearch }: Se
             placeholder="Enter city, state, or ZIP"
             value={filters.location || ''}
             onChange={(e) => updateFilter('location', e.target.value)}
-            className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+            className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
           />
         </div>
         <div>
@@ -41,7 +41,7 @@ export default function SearchFilters({ filters, onFiltersChange, onSearch }: Se
           <select
             value={filters.propertyType || ''}
             onChange={(e) => updateFilter('propertyType', e.target.value)}
-            className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+            className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
           >
             <option value="">All Types</option>
             <option value="house">House</option>
@@ -55,7 +55,7 @@ export default function SearchFilters({ filters, onFiltersChange, onSearch }: Se
           <select
             value={filters.category || ''}
             onChange={(e) => updateFilter('category', e.target.value as 'buy' | 'rent')}
-            className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+            className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
           >
             <option value="">Buy or Rent</option>
             <option value="buy">Buy</option>
@@ -74,7 +74,7 @@ export default function SearchFilters({ filters, onFiltersChange, onSearch }: Se
               placeholder="Min Price"
               value={filters.priceMin || ''}
               onChange={(e) => updateFilter('priceMin', parseInt(e.target.value) || undefined)}
-              className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+              className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
             />
           </div>
           <div>
@@ -84,7 +84,7 @@ export default function SearchFilters({ filters, onFiltersChange, onSearch }: Se
               placeholder="Max Price"
               value={filters.priceMax || ''}
               onChange={(e) => updateFilter('priceMax', parseInt(e.target.value) || undefined)}
-              className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+              className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
             />
           </div>
           <div>
@@ -92,7 +92,7 @@ export default function SearchFilters({ filters, onFiltersChange, onSearch }: Se
             <select
               value={filters.bedrooms || ''}
               onChange={(e) => updateFilter('bedrooms', parseInt(e.target.value) || undefined)}
-              className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+              className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
             >
               <option value="">Any</option>
               <option value="1">1+</option>
@@ -107,7 +107,7 @@ export default function SearchFilters({ filters, onFiltersChange, onSearch }: Se
             <select
               value={filters.bathrooms || ''}
               onChange={(e) => updateFilter('bathrooms', parseInt(e.target.value) || undefined)}
-              className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+              className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
             >
               <option value="">Any</option>
               <option value="1">1+</option>

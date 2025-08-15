@@ -191,7 +191,7 @@ export default function SubmitPropertyPage() {
                   required
                   value={formData.title}
                   onChange={handleInputChange}
-                  className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                  className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
                   placeholder="e.g., Beautiful 3BR Home in Downtown"
                 />
               </div>
@@ -206,7 +206,7 @@ export default function SubmitPropertyPage() {
                   rows={4}
                   value={formData.description}
                   onChange={handleInputChange}
-                  className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                  className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
                   placeholder="Describe your property's key features and selling points..."
                 />
               </div>
@@ -221,7 +221,7 @@ export default function SubmitPropertyPage() {
                     required
                     value={formData.category}
                     onChange={handleInputChange}
-                    className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                    className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
                   >
                     <option value="buy">For Sale</option>
                     <option value="rent">For Rent</option>
@@ -237,7 +237,7 @@ export default function SubmitPropertyPage() {
                     required
                     value={formData.propertyClass}
                     onChange={handleInputChange}
-                    className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                    className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
                   >
                     <option value="residential">Residential</option>
                     <option value="commercial">Commercial</option>
@@ -253,7 +253,7 @@ export default function SubmitPropertyPage() {
                     required
                     value={formData.propertyType}
                     onChange={handleInputChange}
-                    className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                    className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
                   >
                     <option value="house">House</option>
                     <option value="apartment">Apartment</option>
@@ -275,7 +275,7 @@ export default function SubmitPropertyPage() {
                     required
                     value={formData.price}
                     onChange={handleInputChange}
-                    className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                    className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
                     placeholder="750000"
                   />
                 </div>
@@ -301,7 +301,7 @@ export default function SubmitPropertyPage() {
                   required
                   value={formData.address}
                   onChange={handleInputChange}
-                  className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                  className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
                   placeholder="123 Main Street"
                 />
               </div>
@@ -317,7 +317,7 @@ export default function SubmitPropertyPage() {
                     required
                     value={formData.city}
                     onChange={handleInputChange}
-                    className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                    className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
                     placeholder="New York"
                   />
                 </div>
@@ -332,7 +332,7 @@ export default function SubmitPropertyPage() {
                     required
                     value={formData.state}
                     onChange={handleInputChange}
-                    className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                    className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
                     placeholder="NY"
                   />
                 </div>
@@ -347,7 +347,7 @@ export default function SubmitPropertyPage() {
                     required
                     value={formData.zip}
                     onChange={handleInputChange}
-                    className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                    className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
                     placeholder="10001"
                   />
                 </div>
@@ -373,7 +373,7 @@ export default function SubmitPropertyPage() {
                     name="bedrooms"
                     value={formData.bedrooms}
                     onChange={handleInputChange}
-                    className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                    className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
                     placeholder="3"
                   />
                 </div>
@@ -389,7 +389,7 @@ export default function SubmitPropertyPage() {
                     required
                     value={formData.bathrooms}
                     onChange={handleInputChange}
-                    className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                    className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
                     placeholder="2"
                   />
                 </div>
@@ -404,7 +404,7 @@ export default function SubmitPropertyPage() {
                     required
                     value={formData.sqft}
                     onChange={handleInputChange}
-                    className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                    className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
                     placeholder="1200"
                   />
                 </div>
@@ -418,7 +418,7 @@ export default function SubmitPropertyPage() {
                     name="yearBuilt"
                     value={formData.yearBuilt}
                     onChange={handleInputChange}
-                    className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                    className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
                     placeholder="2018"
                   />
                 </div>
@@ -435,7 +435,7 @@ export default function SubmitPropertyPage() {
                         type="checkbox"
                         checked={formData.features.includes(feature)}
                         onChange={() => handleFeatureToggle(feature)}
-                        className="mr-2 h-4 w-4 text-primary-600 focus:ring-blue-500 border-gray-300 rounded"
+                        className="mr-2 h-4 w-4 text-primary-600 focus:ring-primary-500 border-gray-300 rounded"
                       />
                       <span className="text-sm text-gray-700">{feature}</span>
                     </label>
@@ -486,7 +486,7 @@ export default function SubmitPropertyPage() {
                     required
                     value={formData.contactName}
                     onChange={handleInputChange}
-                    className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                    className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
                     placeholder="John Doe"
                   />
                 </div>
@@ -501,7 +501,7 @@ export default function SubmitPropertyPage() {
                     required
                     value={formData.contactPhone}
                     onChange={handleInputChange}
-                    className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                    className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
                     placeholder="(555) 123-4567"
                   />
                 </div>
@@ -517,12 +517,12 @@ export default function SubmitPropertyPage() {
                   required
                   value={formData.contactEmail}
                   onChange={handleInputChange}
-                  className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                  className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
                   placeholder="john.doe@example.com"
                 />
               </div>
 
-              <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
+              <div className="bg-primary-50 border border-primary-200 rounded-lg p-4">
                 <h3 className="font-semibold text-primary-900 mb-2">What happens next?</h3>
                 <ul className="text-sm text-primary-800 space-y-1">
                   <li>• Our team will review your property listing within 24 hours</li>

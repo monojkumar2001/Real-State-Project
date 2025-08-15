@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-r from-blue-900 via-blue-800 to-blue-700 text-white py-24">
+      <section className="relative bg-gradient-to-r from-primary-900 via-primary-700 to-primary-500 text-white py-24">
         <div className="absolute inset-0 bg-black opacity-20"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
@@ -29,11 +29,11 @@ export default function Home() {
                 <input
                   type="text"
                   placeholder="Enter location, city, or ZIP code"
-                  className="w-full border border-gray-300 rounded-md px-4 py-3 text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full border border-gray-300 rounded-md px-4 py-3 text-gray-900 focus:outline-none focus:ring-2 focus:ring-primary-500"
                 />
               </div>
               <div>
-                <select className="w-full border border-gray-300 rounded-md px-4 py-3 text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                <select className="w-full border border-gray-300 rounded-md px-4 py-3 text-gray-900 focus:outline-none focus:ring-2 focus:ring-primary-500">
                   <option>Buy or Rent</option>
                   <option>Buy</option>
                   <option>Rent</option>

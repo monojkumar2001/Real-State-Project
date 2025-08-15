@@ -130,7 +130,7 @@ export default function FAQPage() {
                 placeholder="Search FAQs..."
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
-                className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
               />
             </div>
           </div>
@@ -194,7 +194,7 @@ export default function FAQPage() {
         )}
 
         {/* Contact Section */}
-        <div className="mt-12 bg-blue-50 border border-blue-200 rounded-lg p-8 text-center">
+        <div className="mt-12 bg-primary-50 border border-primary-200 rounded-lg p-8 text-center">
           <MessageCircle className="h-8 w-8 text-primary-600 mx-auto mb-4" />
           <h3 className="text-xl font-semibold text-gray-900 mb-2">Still have questions?</h3>
           <p className="text-gray-600 mb-4">
@@ -209,7 +209,7 @@ export default function FAQPage() {
             </a>
             <a
               href="tel:(555)123-4567"
-              className="border border-blue-600 text-primary-600 px-6 py-2 rounded-md font-medium hover:bg-blue-50 transition-colors"
+              className="border border-primary-600 text-primary-600 px-6 py-2 rounded-md font-medium hover:bg-primary-50 transition-colors"
             >
               Call (555) 123-4567
             </a>

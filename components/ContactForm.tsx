@@ -73,7 +73,7 @@ export default function ContactForm({ propertyId, agentId, title = "Contact Us" 
             required
             value={formData.name}
             onChange={handleChange}
-            className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+            className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
             placeholder="Your full name"
           />
         </div>
@@ -89,7 +89,7 @@ export default function ContactForm({ propertyId, agentId, title = "Contact Us" 
             required
             value={formData.email}
             onChange={handleChange}
-            className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+            className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
             placeholder="your@email.com"
           />
         </div>
@@ -104,7 +104,7 @@ export default function ContactForm({ propertyId, agentId, title = "Contact Us" 
             name="phone"
             value={formData.phone}
             onChange={handleChange}
-            className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+            className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
             placeholder="(555) 123-4567"
           />
         </div>
@@ -120,7 +120,7 @@ export default function ContactForm({ propertyId, agentId, title = "Contact Us" 
             rows={4}
             value={formData.message}
             onChange={handleChange}
-            className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+            className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
             placeholder="Tell us about your needs..."
           />
         </div>

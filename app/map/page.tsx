@@ -185,7 +185,7 @@ export default function MapViewPage() {
                   <div
                     key={property.id}
                     className={`p-4 hover:bg-gray-50 cursor-pointer transition-colors ${
-                      selectedProperty === property.id ? 'bg-blue-50 border-l-4 border-blue-600' : ''
+                      selectedProperty === property.id ? 'bg-primary-50 border-l-4 border-primary-600' : ''
                     }`}
                     onClick={() => setSelectedProperty(property.id)}
                   >

@@ -71,7 +71,7 @@ export default function AgentProfilePage({ params }: { params: { id: string } })
               </div>
 
               <div className="grid grid-cols-3 gap-4 mb-6 text-center">
-                <div className="bg-blue-50 rounded-lg p-3">
+                <div className="bg-primary-50 rounded-lg p-3">
                   <div className="text-2xl font-bold text-primary-600">{agent.experience}</div>
                   <div className="text-sm text-gray-600">Years</div>
                 </div>
@@ -88,7 +88,7 @@ export default function AgentProfilePage({ params }: { params: { id: string } })
               <button className="w-full bg-primary-600 text-white py-3 rounded-md font-medium hover:bg-primary-700 transition-colors mb-3">
                 Call Now
               </button>
-              <button className="w-full border border-blue-600 text-primary-600 py-3 rounded-md font-medium hover:bg-blue-50 transition-colors">
+              <button className="w-full border border-primary-600 text-primary-600 py-3 rounded-md font-medium hover:bg-primary-50 transition-colors">
                 Send Message
               </button>
             </div>

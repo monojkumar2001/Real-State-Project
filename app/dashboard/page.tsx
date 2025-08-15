@@ -103,7 +103,7 @@ export default function DashboardPage() {
                   onClick={() => setActiveTab('saved')}
                   className={`w-full flex items-center px-6 py-3 text-left font-medium transition-colors ${
                     activeTab === 'saved'
-                      ? 'bg-blue-50 text-primary-600 border-r-2 border-blue-600'
+                      ? 'bg-primary-50 text-primary-600 border-r-2 border-primary-600'
                       : 'text-gray-700 hover:bg-gray-50'
                   }`}
                 >
@@ -114,7 +114,7 @@ export default function DashboardPage() {
                   onClick={() => setActiveTab('inquiries')}
                   className={`w-full flex items-center px-6 py-3 text-left font-medium transition-colors ${
                     activeTab === 'inquiries'
-                      ? 'bg-blue-50 text-primary-600 border-r-2 border-blue-600'
+                      ? 'bg-primary-50 text-primary-600 border-r-2 border-primary-600'
                       : 'text-gray-700 hover:bg-gray-50'
                   }`}
                 >
@@ -125,7 +125,7 @@ export default function DashboardPage() {
                   onClick={() => setActiveTab('profile')}
                   className={`w-full flex items-center px-6 py-3 text-left font-medium transition-colors ${
                     activeTab === 'profile'
-                      ? 'bg-blue-50 text-primary-600 border-r-2 border-blue-600'
+                      ? 'bg-primary-50 text-primary-600 border-r-2 border-primary-600'
                       : 'text-gray-700 hover:bg-gray-50'
                   }`}
                 >
@@ -255,7 +255,7 @@ export default function DashboardPage() {
                       <input
                         type="text"
                         defaultValue="John"
-                        className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                        className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
                       />
                     </div>
                     <div>
@@ -265,7 +265,7 @@ export default function DashboardPage() {
                       <input
                         type="text"
                         defaultValue="Doe"
-                        className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                        className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
                       />
                     </div>
                   </div>
@@ -277,7 +277,7 @@ export default function DashboardPage() {
                     <input
                       type="email"
                       defaultValue="john.doe@example.com"
-                      className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                      className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
                     />
                   </div>
 
@@ -288,7 +288,7 @@ export default function DashboardPage() {
                     <input
                       type="tel"
                       defaultValue="(555) 123-4567"
-                      className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                      className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
                     />
                   </div>
 
@@ -303,7 +303,7 @@ export default function DashboardPage() {
                         </div>
                         <button
                           type="button"
-                          className="relative inline-flex h-6 w-11 flex-shrink-0 cursor-pointer rounded-full border-2 border-transparent bg-primary-600 transition-colors duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+                          className="relative inline-flex h-6 w-11 flex-shrink-0 cursor-pointer rounded-full border-2 border-transparent bg-primary-600 transition-colors duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2"
                         >
                           <span className="translate-x-5 inline-block h-5 w-5 transform rounded-full bg-white shadow ring-0 transition duration-200 ease-in-out" />
                         </button>
@@ -316,7 +316,7 @@ export default function DashboardPage() {
                         </div>
                         <button
                           type="button"
-                          className="relative inline-flex h-6 w-11 flex-shrink-0 cursor-pointer rounded-full border-2 border-transparent bg-gray-200 transition-colors duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+                          className="relative inline-flex h-6 w-11 flex-shrink-0 cursor-pointer rounded-full border-2 border-transparent bg-gray-200 transition-colors duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2"
                         >
                           <span className="translate-x-0 inline-block h-5 w-5 transform rounded-full bg-white shadow ring-0 transition duration-200 ease-in-out" />
                         </button>

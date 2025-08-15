@@ -133,7 +133,7 @@ export default function PropertyDetailsPage({ params }: { params: { id: string }
                     key={index}
                     onClick={() => setCurrentImageIndex(index)}
                     className={`flex-shrink-0 w-20 h-20 rounded-lg overflow-hidden border-2 transition-colors ${
-                      index === currentImageIndex ? 'border-blue-600' : 'border-transparent'
+                      index === currentImageIndex ? 'border-primary-600' : 'border-transparent'
                     }`}
                   >
                     <img

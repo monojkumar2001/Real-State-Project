@@ -88,7 +88,7 @@ export default function MortgageCalculatorPage() {
                     type="number"
                     value={loanAmount}
                     onChange={(e) => setLoanAmount(Number(e.target.value))}
-                    className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                    className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
                     placeholder="750,000"
                   />
                 </div>
@@ -104,7 +104,7 @@ export default function MortgageCalculatorPage() {
                     type="number"
                     value={downPayment}
                     onChange={(e) => setDownPayment(Number(e.target.value))}
-                    className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                    className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
                     placeholder="150,000"
                   />
                 </div>
@@ -122,7 +122,7 @@ export default function MortgageCalculatorPage() {
                       step="0.01"
                       value={interestRate}
                       onChange={(e) => setInterestRate(Number(e.target.value))}
-                      className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                      className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
                       placeholder="6.5"
                     />
                   </div>
@@ -137,7 +137,7 @@ export default function MortgageCalculatorPage() {
                     <select
                       value={loanTerm}
                       onChange={(e) => setLoanTerm(Number(e.target.value))}
-                      className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                      className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
                     >
                       <option value={15}>15 years</option>
                       <option value={20}>20 years</option>
@@ -162,7 +162,7 @@ export default function MortgageCalculatorPage() {
                         type="number"
                         value={propertyTax}
                         onChange={(e) => setPropertyTax(Number(e.target.value))}
-                        className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                        className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
                         placeholder="12,000"
                       />
                     </div>
@@ -178,7 +178,7 @@ export default function MortgageCalculatorPage() {
                         type="number"
                         value={homeInsurance}
                         onChange={(e) => setHomeInsurance(Number(e.target.value))}
-                        className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                        className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
                         placeholder="2,400"
                       />
                     </div>
@@ -194,7 +194,7 @@ export default function MortgageCalculatorPage() {
                         type="number"
                         value={pmiAmount}
                         onChange={(e) => setPmiAmount(Number(e.target.value))}
-                        className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                        className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
                         placeholder="0"
                       />
                     </div>
@@ -214,7 +214,7 @@ export default function MortgageCalculatorPage() {
               <h2 className="text-2xl font-bold text-gray-900 mb-6">Monthly Payment Breakdown</h2>
               
               <div className="space-y-4">
-                <div className="bg-blue-50 rounded-lg p-4">
+                <div className="bg-primary-50 rounded-lg p-4">
                   <div className="flex justify-between items-center">
                     <span className="text-lg font-semibold text-primary-900">Total Monthly Payment</span>
                     <span className="text-2xl font-bold text-primary-600">

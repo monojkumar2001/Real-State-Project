@@ -70,7 +70,7 @@ export default function TestimonialsPage() {
             </p>
             
             {/* Rating Summary */}
-            <div className="bg-blue-50 rounded-lg p-6 max-w-md mx-auto">
+            <div className="bg-primary-50 rounded-lg p-6 max-w-md mx-auto">
               <div className="flex items-center justify-center mb-2">
                 <div className="flex">
                   {[...Array(5)].map((_, i) => (
@@ -90,7 +90,7 @@ export default function TestimonialsPage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         {/* Featured Testimonial */}
         <div className="mb-16">
-          <div className="bg-gradient-to-r from-blue-600 to-blue-700 rounded-lg p-8 text-white text-center">
+          <div className="bg-gradient-to-r from-primary-600 to-primary-700 rounded-lg p-8 text-white text-center">
             <Quote className="h-12 w-12 mx-auto mb-6 opacity-50" />
             <blockquote className="text-xl md:text-2xl font-medium mb-6 leading-relaxed">
               "{allTestimonials[0].review}"
@@ -190,7 +190,7 @@ export default function TestimonialsPage() {
         </div>
 
         {/* Review Form CTA */}
-        <div className="mt-12 bg-blue-50 border border-blue-200 rounded-lg p-6 text-center">
+        <div className="mt-12 bg-primary-50 border border-primary-200 rounded-lg p-6 text-center">
           <h3 className="text-lg font-semibold text-primary-900 mb-2">Have you worked with us?</h3>
           <p className="text-primary-800 text-sm mb-4">
             We'd love to hear about your experience! Your feedback helps us continue to improve our services.

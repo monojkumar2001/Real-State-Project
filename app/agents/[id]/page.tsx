@@ -4,6 +4,12 @@ import PropertyCard from '@/components/PropertyCard';
 import ContactForm from '@/components/ContactForm';
 import { Star, Phone, Mail, Award, TrendingUp, Home, ArrowLeft } from 'lucide-react';
 
+export function generateStaticParams() {
+  return agents.map(agent => ({
+    id: agent.id,
+  }));
+}
+
 export default function AgentProfilePage({ params }: { params: { id: string } }) {
   const agent = agents.find(a => a.id === params.id);
   const agentProperties = properties.filter(p => p.agent.id === params.id);

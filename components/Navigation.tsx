@@ -58,7 +58,6 @@ export default function Navigation() {
                   href={item.href}
                   className="flex items-center space-x-1 text-gray-700 hover:text-primary-600 px-3 py-2 rounded-md text-sm font-medium transition-colors"
                 >
-                  <item.icon className="h-4 w-4" />
                   <span>{item.name}</span>
                 </Link>
                 {item.dropdown && (
@@ -88,7 +87,7 @@ export default function Navigation() {
               </Link>
               <Link
                 href="/register"
-                className="bg-primary-600 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-primary-700 transition-colors flex items-center space-x-1"
+                className="bg-blue-600 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-primary-700 transition-colors flex items-center space-x-1"
               >
                 <UserPlus className="h-4 w-4" />
                 <span>Register</span>

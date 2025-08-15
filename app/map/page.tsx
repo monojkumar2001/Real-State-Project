@@ -55,7 +55,7 @@ export default function MapViewPage() {
             <div className="flex items-center space-x-4">
               <Link
                 href="/properties"
-                className="flex items-center space-x-2 text-gray-600 hover:text-blue-600 transition-colors"
+                className="flex items-center space-x-2 text-gray-600 hover:text-primary-600 transition-colors"
               >
                 <Grid className="h-4 w-4" />
                 <span className="hidden sm:inline">Grid View</span>
@@ -65,8 +65,8 @@ export default function MapViewPage() {
                 onClick={() => setShowList(!showList)}
                 className={`flex items-center space-x-2 px-3 py-2 rounded-md transition-colors ${
                   showList 
-                    ? 'bg-blue-600 text-white' 
-                    : 'text-gray-600 hover:text-blue-600 hover:bg-gray-100'
+                    ? 'bg-primary-600 text-white' 
+                    : 'text-gray-600 hover:text-primary-600 hover:bg-gray-100'
                 }`}
               >
                 <List className="h-4 w-4" />
@@ -114,13 +114,13 @@ export default function MapViewPage() {
                       selectedProperty === property.id ? 'scale-125' : ''
                     }`}>
                       {/* Price Pin */}
-                      <div className={`bg-blue-600 text-white px-2 py-1 rounded-lg text-xs font-semibold shadow-lg ${
-                        selectedProperty === property.id ? 'bg-blue-800' : ''
+                      <div className={`bg-primary-600 text-white px-2 py-1 rounded-lg text-xs font-semibold shadow-lg ${
+                        selectedProperty === property.id ? 'bg-primary-800' : ''
                       }`}>
                         {formatPrice(property.price, property.category)}
                       </div>
                       {/* Pin Point */}
-                      <div className="w-2 h-2 bg-blue-600 mx-auto transform rotate-45 -mt-1"></div>
+                      <div className="w-2 h-2 bg-primary-600 mx-auto transform rotate-45 -mt-1"></div>
                     </div>
 
                     {/* Property Card Popup */}
@@ -158,7 +158,7 @@ export default function MapViewPage() {
                           </div>
                           <Link
                             href={`/properties/${property.id}`}
-                            className="block w-full bg-blue-600 text-white text-center py-1 rounded text-xs font-medium hover:bg-blue-700 transition-colors"
+                            className="block w-full bg-primary-600 text-white text-center py-1 rounded text-xs font-medium hover:bg-primary-700 transition-colors"
                           >
                             View Details
                           </Link>
@@ -199,7 +199,7 @@ export default function MapViewPage() {
                         <h3 className="font-semibold text-gray-900 text-sm truncate">
                           {property.title}
                         </h3>
-                        <p className="text-blue-600 font-medium text-lg">
+                        <p className="text-primary-600 font-medium text-lg">
                           {formatPrice(property.price, property.category)}
                         </p>
                         <p className="text-xs text-gray-600 mb-2">
@@ -224,7 +224,7 @@ export default function MapViewPage() {
                         <div className="mt-2">
                           <Link
                             href={`/properties/${property.id}`}
-                            className="text-blue-600 hover:text-blue-700 text-xs font-medium"
+                            className="text-primary-600 hover:text-primary-700 text-xs font-medium"
                           >
                             View Details →
                           </Link>
@@ -261,7 +261,7 @@ export default function MapViewPage() {
           <h4 className="font-semibold text-gray-900 mb-2">Legend</h4>
           <div className="space-y-1">
             <div className="flex items-center">
-              <div className="w-3 h-3 bg-blue-600 rounded mr-2"></div>
+              <div className="w-3 h-3 bg-primary-600 rounded mr-2"></div>
               <span className="text-gray-600">Available Properties</span>
             </div>
             <div className="flex items-center">

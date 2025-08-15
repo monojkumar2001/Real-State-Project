@@ -77,7 +77,7 @@ export default function RentPage() {
             </p>
             <button
               onClick={() => setFilters({ category: 'rent' })}
-              className="bg-blue-600 text-white px-6 py-2 rounded-md font-medium hover:bg-blue-700 transition-colors"
+              className="bg-primary-600 text-white px-6 py-2 rounded-md font-medium hover:bg-primary-700 transition-colors"
             >
               Clear All Filters
             </button>

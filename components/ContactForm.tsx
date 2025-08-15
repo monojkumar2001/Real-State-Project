@@ -49,7 +49,7 @@ export default function ContactForm({ propertyId, agentId, title = "Contact Us" 
           <p className="text-gray-600">Thank you for your inquiry. We'll get back to you soon.</p>
           <button
             onClick={() => setSubmitted(false)}
-            className="mt-4 text-blue-600 hover:text-blue-700 transition-colors"
+            className="mt-4 text-primary-600 hover:text-primary-700 transition-colors"
           >
             Send Another Message
           </button>
@@ -128,7 +128,7 @@ export default function ContactForm({ propertyId, agentId, title = "Contact Us" 
         <button
           type="submit"
           disabled={isSubmitting}
-          className="w-full bg-blue-600 text-white py-2 px-4 rounded-md font-medium hover:bg-blue-700 disabled:bg-blue-400 transition-colors flex items-center justify-center space-x-2"
+          className="w-full bg-primary-600 text-white py-2 px-4 rounded-md font-medium hover:bg-primary-700 disabled:bg-primary-400 transition-colors flex items-center justify-center space-x-2"
         >
           {isSubmitting ? (
             <div className="animate-spin rounded-full h-4 w-4 border-b-2 border-white"></div>

@@ -59,7 +59,7 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl md:text-6xl font-bold mb-6">About PrimeRealty</h1>
-            <p className="text-xl md:text-2xl mb-8 text-blue-100 max-w-3xl mx-auto">
+            <p className="text-xl md:text-2xl mb-8 text-primary-100 max-w-3xl mx-auto">
               Your trusted partner in real estate, committed to making your property dreams a reality
             </p>
           </div>
@@ -72,8 +72,8 @@ export default function AboutPage() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {stats.map((stat, index) => (
               <div key={index} className="text-center">
-                <div className="bg-blue-100 rounded-full p-4 w-16 h-16 mx-auto mb-4 flex items-center justify-center">
-                  <stat.icon className="h-8 w-8 text-blue-600" />
+                <div className="bg-primary-100 rounded-full p-4 w-16 h-16 mx-auto mb-4 flex items-center justify-center">
+                  <stat.icon className="h-8 w-8 text-primary-600" />
                 </div>
                 <div className="text-3xl font-bold text-gray-900 mb-2">{stat.number}</div>
                 <div className="text-gray-600">{stat.label}</div>
@@ -131,8 +131,8 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {values.map((value, index) => (
               <div key={index} className="bg-white rounded-lg shadow-md p-8">
-                <div className="bg-blue-100 rounded-full p-3 w-12 h-12 mb-4 flex items-center justify-center">
-                  <value.icon className="h-6 w-6 text-blue-600" />
+                <div className="bg-primary-100 rounded-full p-3 w-12 h-12 mb-4 flex items-center justify-center">
+                  <value.icon className="h-6 w-6 text-primary-600" />
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-3">{value.title}</h3>
                 <p className="text-gray-600 leading-relaxed">{value.description}</p>
@@ -162,7 +162,7 @@ export default function AboutPage() {
                 />
                 <div className="p-6">
                   <h3 className="text-xl font-semibold text-gray-900 mb-1">{member.name}</h3>
-                  <p className="text-blue-600 font-medium mb-3">{member.role}</p>
+                  <p className="text-primary-600 font-medium mb-3">{member.role}</p>
                   <p className="text-gray-600 text-sm leading-relaxed">{member.bio}</p>
                 </div>
               </div>
@@ -172,10 +172,10 @@ export default function AboutPage() {
       </section>
 
       {/* Mission Statement */}
-      <section className="py-16 bg-blue-600 text-white">
+      <section className="py-16 bg-primary-600 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">Our Mission</h2>
-          <p className="text-xl md:text-2xl mb-8 text-blue-100 max-w-4xl mx-auto leading-relaxed">
+          <p className="text-xl md:text-2xl mb-8 text-primary-100 max-w-4xl mx-auto leading-relaxed">
             "To empower individuals and businesses to make informed real estate decisions by providing 
             exceptional service, market expertise, and innovative solutions that create lasting value 
             for our clients and communities."
@@ -183,13 +183,13 @@ export default function AboutPage() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="/contact"
-              className="bg-white text-blue-600 px-8 py-3 rounded-md font-medium hover:bg-gray-100 transition-colors"
+              className="bg-white text-primary-600 px-8 py-3 rounded-md font-medium hover:bg-gray-100 transition-colors"
             >
               Contact Us
             </a>
             <a
               href="/properties"
-              className="border border-white text-white px-8 py-3 rounded-md font-medium hover:bg-blue-700 transition-colors"
+              className="border border-white text-white px-8 py-3 rounded-md font-medium hover:bg-primary-700 transition-colors"
             >
               View Properties
             </a>

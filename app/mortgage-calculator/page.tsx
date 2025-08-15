@@ -60,8 +60,8 @@ export default function MortgageCalculatorPage() {
       <div className="bg-white shadow-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <div className="text-center">
-            <div className="bg-blue-100 rounded-full p-4 w-16 h-16 mx-auto mb-4 flex items-center justify-center">
-              <Calculator className="h-8 w-8 text-blue-600" />
+            <div className="bg-primary-100 rounded-full p-4 w-16 h-16 mx-auto mb-4 flex items-center justify-center">
+              <Calculator className="h-8 w-8 text-primary-600" />
             </div>
             <h1 className="text-4xl font-bold text-gray-900 mb-4">Mortgage Calculator</h1>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
@@ -216,8 +216,8 @@ export default function MortgageCalculatorPage() {
               <div className="space-y-4">
                 <div className="bg-blue-50 rounded-lg p-4">
                   <div className="flex justify-between items-center">
-                    <span className="text-lg font-semibold text-blue-900">Total Monthly Payment</span>
-                    <span className="text-2xl font-bold text-blue-600">
+                    <span className="text-lg font-semibold text-primary-900">Total Monthly Payment</span>
+                    <span className="text-2xl font-bold text-primary-600">
                       ${results.totalMonthlyPayment.toLocaleString(undefined, { maximumFractionDigits: 0 })}
                     </span>
                   </div>

@@ -87,7 +87,7 @@ export default function CareersPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <Briefcase className="h-16 w-16 mx-auto mb-6" />
           <h1 className="text-4xl md:text-6xl font-bold mb-6">Join Our Team</h1>
-          <p className="text-xl md:text-2xl mb-8 text-blue-100 max-w-3xl mx-auto">
+          <p className="text-xl md:text-2xl mb-8 text-primary-100 max-w-3xl mx-auto">
             Build your career with PrimeRealty and help shape the future of real estate
           </p>
         </div>
@@ -106,8 +106,8 @@ export default function CareersPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {benefits.map((benefit, index) => (
               <div key={index} className="bg-white rounded-lg shadow-md p-6 text-center">
-                <div className="bg-blue-100 rounded-full p-4 w-16 h-16 mx-auto mb-4 flex items-center justify-center">
-                  <benefit.icon className="h-8 w-8 text-blue-600" />
+                <div className="bg-primary-100 rounded-full p-4 w-16 h-16 mx-auto mb-4 flex items-center justify-center">
+                  <benefit.icon className="h-8 w-8 text-primary-600" />
                 </div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">{benefit.title}</h3>
                 <p className="text-gray-600 text-sm">{benefit.description}</p>
@@ -142,15 +142,15 @@ export default function CareersPage() {
               
               <div className="mt-8 grid grid-cols-3 gap-4 text-center">
                 <div>
-                  <div className="text-2xl font-bold text-blue-600">25+</div>
+                  <div className="text-2xl font-bold text-primary-600">25+</div>
                   <div className="text-sm text-gray-600">Team Members</div>
                 </div>
                 <div>
-                  <div className="text-2xl font-bold text-blue-600">5</div>
+                  <div className="text-2xl font-bold text-primary-600">5</div>
                   <div className="text-sm text-gray-600">Years Growing</div>
                 </div>
                 <div>
-                  <div className="text-2xl font-bold text-blue-600">150+</div>
+                  <div className="text-2xl font-bold text-primary-600">150+</div>
                   <div className="text-sm text-gray-600">Happy Clients</div>
                 </div>
               </div>
@@ -198,7 +198,7 @@ export default function CareersPage() {
                       </div>
                     </div>
                   </div>
-                  <button className="mt-4 lg:mt-0 bg-blue-600 text-white px-6 py-2 rounded-md font-medium hover:bg-blue-700 transition-colors">
+                  <button className="mt-4 lg:mt-0 bg-primary-600 text-white px-6 py-2 rounded-md font-medium hover:bg-primary-700 transition-colors">
                     Apply Now
                   </button>
                 </div>
@@ -210,7 +210,7 @@ export default function CareersPage() {
                   <ul className="text-gray-600 text-sm space-y-1">
                     {job.requirements.map((req, reqIndex) => (
                       <li key={reqIndex} className="flex items-start">
-                        <span className="text-blue-600 mr-2">•</span>
+                        <span className="text-primary-600 mr-2">•</span>
                         {req}
                       </li>
                     ))}
@@ -240,7 +240,7 @@ export default function CareersPage() {
                 <h3 className="text-lg font-semibold text-gray-900 mb-4">Application Process</h3>
                 <div className="space-y-4">
                   <div className="flex items-start">
-                    <div className="bg-blue-600 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-semibold mr-3 mt-0.5">
+                    <div className="bg-primary-600 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-semibold mr-3 mt-0.5">
                       1
                     </div>
                     <div>
@@ -249,7 +249,7 @@ export default function CareersPage() {
                     </div>
                   </div>
                   <div className="flex items-start">
-                    <div className="bg-blue-600 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-semibold mr-3 mt-0.5">
+                    <div className="bg-primary-600 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-semibold mr-3 mt-0.5">
                       2
                     </div>
                     <div>
@@ -258,7 +258,7 @@ export default function CareersPage() {
                     </div>
                   </div>
                   <div className="flex items-start">
-                    <div className="bg-blue-600 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-semibold mr-3 mt-0.5">
+                    <div className="bg-primary-600 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-semibold mr-3 mt-0.5">
                       3
                     </div>
                     <div>
@@ -267,7 +267,7 @@ export default function CareersPage() {
                     </div>
                   </div>
                   <div className="flex items-start">
-                    <div className="bg-blue-600 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-semibold mr-3 mt-0.5">
+                    <div className="bg-primary-600 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-semibold mr-3 mt-0.5">
                       4
                     </div>
                     <div>
@@ -279,11 +279,11 @@ export default function CareersPage() {
               </div>
 
               <div className="bg-blue-50 border border-blue-200 rounded-lg p-6">
-                <h3 className="text-lg font-semibold text-blue-900 mb-2">Questions?</h3>
-                <p className="text-blue-800 text-sm mb-4">
+                <h3 className="text-lg font-semibold text-primary-900 mb-2">Questions?</h3>
+                <p className="text-primary-800 text-sm mb-4">
                   Have questions about working at PrimeRealty or our application process?
                 </p>
-                <div className="space-y-2 text-sm text-blue-700">
+                <div className="space-y-2 text-sm text-primary-700">
                   <div>📧 careers@primerealty.com</div>
                   <div>📞 (555) 123-4567</div>
                 </div>

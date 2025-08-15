@@ -52,8 +52,8 @@ export default function ContactPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
           {contactMethods.map((method, index) => (
             <div key={index} className="bg-white rounded-lg shadow-md p-6 text-center">
-              <div className="bg-blue-100 rounded-full p-4 w-16 h-16 mx-auto mb-4 flex items-center justify-center">
-                <method.icon className="h-8 w-8 text-blue-600" />
+              <div className="bg-primary-100 rounded-full p-4 w-16 h-16 mx-auto mb-4 flex items-center justify-center">
+                <method.icon className="h-8 w-8 text-primary-600" />
               </div>
               <h3 className="text-lg font-semibold text-gray-900 mb-2">{method.title}</h3>
               <p className="text-gray-600 text-sm mb-3">{method.description}</p>
@@ -129,13 +129,13 @@ export default function ContactPage() {
 
             {/* FAQ Quick Links */}
             <div className="bg-blue-50 border border-blue-200 rounded-lg p-6">
-              <h3 className="text-lg font-semibold text-blue-900 mb-3">Frequently Asked Questions</h3>
-              <p className="text-blue-700 text-sm mb-4">
+              <h3 className="text-lg font-semibold text-primary-900 mb-3">Frequently Asked Questions</h3>
+              <p className="text-primary-700 text-sm mb-4">
                 Before contacting us, you might find answers to common questions in our FAQ section.
               </p>
               <a
                 href="/faq"
-                className="bg-blue-600 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-blue-700 transition-colors inline-block"
+                className="bg-primary-600 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-primary-700 transition-colors inline-block"
               >
                 View FAQ
               </a>

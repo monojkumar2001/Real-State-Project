@@ -59,7 +59,7 @@ export default function DashboardPage() {
             <div className="flex space-x-3 mt-4 md:mt-0">
               <Link
                 href="/properties"
-                className="bg-blue-600 text-white px-4 py-2 rounded-md font-medium hover:bg-blue-700 transition-colors flex items-center"
+                className="bg-primary-600 text-white px-4 py-2 rounded-md font-medium hover:bg-primary-700 transition-colors flex items-center"
               >
                 <Search className="h-4 w-4 mr-2" />
                 Browse Properties
@@ -86,8 +86,8 @@ export default function DashboardPage() {
                   <p className="text-sm text-gray-600">{stat.label}</p>
                   <p className="text-2xl font-bold text-gray-900">{stat.value}</p>
                 </div>
-                <div className="bg-blue-100 rounded-full p-3">
-                  <stat.icon className="h-6 w-6 text-blue-600" />
+                <div className="bg-primary-100 rounded-full p-3">
+                  <stat.icon className="h-6 w-6 text-primary-600" />
                 </div>
               </div>
             </div>
@@ -103,7 +103,7 @@ export default function DashboardPage() {
                   onClick={() => setActiveTab('saved')}
                   className={`w-full flex items-center px-6 py-3 text-left font-medium transition-colors ${
                     activeTab === 'saved'
-                      ? 'bg-blue-50 text-blue-600 border-r-2 border-blue-600'
+                      ? 'bg-blue-50 text-primary-600 border-r-2 border-blue-600'
                       : 'text-gray-700 hover:bg-gray-50'
                   }`}
                 >
@@ -114,7 +114,7 @@ export default function DashboardPage() {
                   onClick={() => setActiveTab('inquiries')}
                   className={`w-full flex items-center px-6 py-3 text-left font-medium transition-colors ${
                     activeTab === 'inquiries'
-                      ? 'bg-blue-50 text-blue-600 border-r-2 border-blue-600'
+                      ? 'bg-blue-50 text-primary-600 border-r-2 border-blue-600'
                       : 'text-gray-700 hover:bg-gray-50'
                   }`}
                 >
@@ -125,7 +125,7 @@ export default function DashboardPage() {
                   onClick={() => setActiveTab('profile')}
                   className={`w-full flex items-center px-6 py-3 text-left font-medium transition-colors ${
                     activeTab === 'profile'
-                      ? 'bg-blue-50 text-blue-600 border-r-2 border-blue-600'
+                      ? 'bg-blue-50 text-primary-600 border-r-2 border-blue-600'
                       : 'text-gray-700 hover:bg-gray-50'
                   }`}
                 >
@@ -183,7 +183,7 @@ export default function DashboardPage() {
                     <p className="text-gray-600 mb-4">Start browsing to save properties you're interested in.</p>
                     <Link
                       href="/properties"
-                      className="bg-blue-600 text-white px-6 py-2 rounded-md font-medium hover:bg-blue-700 transition-colors"
+                      className="bg-primary-600 text-white px-6 py-2 rounded-md font-medium hover:bg-primary-700 transition-colors"
                     >
                       Browse Properties
                     </Link>
@@ -231,7 +231,7 @@ export default function DashboardPage() {
                       <div className="flex justify-end mt-4">
                         <Link
                           href={`/properties/${inquiry.property.id}`}
-                          className="text-blue-600 hover:text-blue-700 text-sm font-medium"
+                          className="text-primary-600 hover:text-primary-700 text-sm font-medium"
                         >
                           View Property →
                         </Link>
@@ -303,7 +303,7 @@ export default function DashboardPage() {
                         </div>
                         <button
                           type="button"
-                          className="relative inline-flex h-6 w-11 flex-shrink-0 cursor-pointer rounded-full border-2 border-transparent bg-blue-600 transition-colors duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+                          className="relative inline-flex h-6 w-11 flex-shrink-0 cursor-pointer rounded-full border-2 border-transparent bg-primary-600 transition-colors duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
                         >
                           <span className="translate-x-5 inline-block h-5 w-5 transform rounded-full bg-white shadow ring-0 transition duration-200 ease-in-out" />
                         </button>
@@ -333,7 +333,7 @@ export default function DashboardPage() {
                     </button>
                     <button
                       type="submit"
-                      className="px-4 py-2 bg-blue-600 text-white rounded-md font-medium hover:bg-blue-700 transition-colors"
+                      className="px-4 py-2 bg-primary-600 text-white rounded-md font-medium hover:bg-primary-700 transition-colors"
                     >
                       Save Changes
                     </button>

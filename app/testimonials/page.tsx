@@ -103,7 +103,7 @@ export default function TestimonialsPage() {
               />
               <div className="text-left">
                 <div className="font-semibold">{allTestimonials[0].name}</div>
-                <div className="text-blue-200 text-sm flex items-center">
+                <div className="text-primary-200 text-sm flex items-center">
                   <MapPin className="h-3 w-3 mr-1" />
                   {allTestimonials[0].location}
                 </div>
@@ -149,19 +149,19 @@ export default function TestimonialsPage() {
           <h2 className="text-2xl font-bold text-gray-900 text-center mb-8">Our Track Record</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div>
-              <div className="text-3xl font-bold text-blue-600 mb-2">150+</div>
+              <div className="text-3xl font-bold text-primary-600 mb-2">150+</div>
               <div className="text-gray-600">Happy Clients</div>
             </div>
             <div>
-              <div className="text-3xl font-bold text-blue-600 mb-2">4.9</div>
+              <div className="text-3xl font-bold text-primary-600 mb-2">4.9</div>
               <div className="text-gray-600">Average Rating</div>
             </div>
             <div>
-              <div className="text-3xl font-bold text-blue-600 mb-2">500+</div>
+              <div className="text-3xl font-bold text-primary-600 mb-2">500+</div>
               <div className="text-gray-600">Properties Sold</div>
             </div>
             <div>
-              <div className="text-3xl font-bold text-blue-600 mb-2">98%</div>
+              <div className="text-3xl font-bold text-primary-600 mb-2">98%</div>
               <div className="text-gray-600">Client Satisfaction</div>
             </div>
           </div>
@@ -176,7 +176,7 @@ export default function TestimonialsPage() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="/contact"
-              className="bg-blue-600 text-white px-8 py-3 rounded-md font-medium hover:bg-blue-700 transition-colors"
+              className="bg-primary-600 text-white px-8 py-3 rounded-md font-medium hover:bg-primary-700 transition-colors"
             >
               Get Started Today
             </a>
@@ -191,11 +191,11 @@ export default function TestimonialsPage() {
 
         {/* Review Form CTA */}
         <div className="mt-12 bg-blue-50 border border-blue-200 rounded-lg p-6 text-center">
-          <h3 className="text-lg font-semibold text-blue-900 mb-2">Have you worked with us?</h3>
-          <p className="text-blue-800 text-sm mb-4">
+          <h3 className="text-lg font-semibold text-primary-900 mb-2">Have you worked with us?</h3>
+          <p className="text-primary-800 text-sm mb-4">
             We'd love to hear about your experience! Your feedback helps us continue to improve our services.
           </p>
-          <button className="bg-blue-600 text-white px-6 py-2 rounded-md font-medium hover:bg-blue-700 transition-colors">
+          <button className="bg-primary-600 text-white px-6 py-2 rounded-md font-medium hover:bg-primary-700 transition-colors">
             Leave a Review
           </button>
         </div>

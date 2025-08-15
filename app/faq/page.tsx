@@ -145,7 +145,7 @@ export default function FAQPage() {
             <p className="text-gray-600 mb-4">Try adjusting your search terms</p>
             <button
               onClick={() => setSearchTerm('')}
-              className="bg-blue-600 text-white px-6 py-2 rounded-md font-medium hover:bg-blue-700 transition-colors"
+              className="bg-primary-600 text-white px-6 py-2 rounded-md font-medium hover:bg-primary-700 transition-colors"
             >
               Clear Search
             </button>
@@ -154,7 +154,7 @@ export default function FAQPage() {
           <div className="space-y-8">
             {filteredFaqs.map((category, categoryIndex) => (
               <div key={category.category} className="bg-white rounded-lg shadow-md overflow-hidden">
-                <div className="bg-blue-600 text-white px-6 py-4">
+                <div className="bg-primary-600 text-white px-6 py-4">
                   <h2 className="text-xl font-semibold">{category.category}</h2>
                 </div>
                 
@@ -195,7 +195,7 @@ export default function FAQPage() {
 
         {/* Contact Section */}
         <div className="mt-12 bg-blue-50 border border-blue-200 rounded-lg p-8 text-center">
-          <MessageCircle className="h-8 w-8 text-blue-600 mx-auto mb-4" />
+          <MessageCircle className="h-8 w-8 text-primary-600 mx-auto mb-4" />
           <h3 className="text-xl font-semibold text-gray-900 mb-2">Still have questions?</h3>
           <p className="text-gray-600 mb-4">
             Can't find what you're looking for? Our team is here to help.
@@ -203,13 +203,13 @@ export default function FAQPage() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="/contact"
-              className="bg-blue-600 text-white px-6 py-2 rounded-md font-medium hover:bg-blue-700 transition-colors"
+              className="bg-primary-600 text-white px-6 py-2 rounded-md font-medium hover:bg-primary-700 transition-colors"
             >
               Contact Us
             </a>
             <a
               href="tel:(555)123-4567"
-              className="border border-blue-600 text-blue-600 px-6 py-2 rounded-md font-medium hover:bg-blue-50 transition-colors"
+              className="border border-blue-600 text-primary-600 px-6 py-2 rounded-md font-medium hover:bg-blue-50 transition-colors"
             >
               Call (555) 123-4567
             </a>
@@ -225,7 +225,7 @@ export default function FAQPage() {
             </p>
             <a
               href="/properties"
-              className="text-blue-600 hover:text-blue-700 font-medium text-sm"
+              className="text-primary-600 hover:text-primary-700 font-medium text-sm"
             >
               View Properties →
             </a>
@@ -238,7 +238,7 @@ export default function FAQPage() {
             </p>
             <a
               href="/submit-property"
-              className="text-blue-600 hover:text-blue-700 font-medium text-sm"
+              className="text-primary-600 hover:text-primary-700 font-medium text-sm"
             >
               List Property →
             </a>
@@ -251,7 +251,7 @@ export default function FAQPage() {
             </p>
             <a
               href="/mortgage-calculator"
-              className="text-blue-600 hover:text-blue-700 font-medium text-sm"
+              className="text-primary-600 hover:text-primary-700 font-medium text-sm"
             >
               Mortgage Calculator →
             </a>

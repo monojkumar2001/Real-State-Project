@@ -51,7 +51,7 @@ export default function PropertiesPage() {
             <div className="flex items-center space-x-4 mt-4 md:mt-0">
               <Link
                 href="/map"
-                className="flex items-center space-x-2 text-gray-600 hover:text-blue-600 transition-colors"
+                className="flex items-center space-x-2 text-gray-600 hover:text-primary-600 transition-colors"
               >
                 <MapPin className="h-4 w-4" />
                 <span>Map View</span>
@@ -59,13 +59,13 @@ export default function PropertiesPage() {
               <div className="flex border border-gray-300 rounded-md">
                 <button
                   onClick={() => setViewMode('grid')}
-                  className={`p-2 ${viewMode === 'grid' ? 'bg-blue-600 text-white' : 'text-gray-600 hover:bg-gray-100'} transition-colors`}
+                  className={`p-2 ${viewMode === 'grid' ? 'bg-primary-600 text-white' : 'text-gray-600 hover:bg-gray-100'} transition-colors`}
                 >
                   <Grid className="h-4 w-4" />
                 </button>
                 <button
                   onClick={() => setViewMode('list')}
-                  className={`p-2 ${viewMode === 'list' ? 'bg-blue-600 text-white' : 'text-gray-600 hover:bg-gray-100'} transition-colors`}
+                  className={`p-2 ${viewMode === 'list' ? 'bg-primary-600 text-white' : 'text-gray-600 hover:bg-gray-100'} transition-colors`}
                 >
                   <List className="h-4 w-4" />
                 </button>
@@ -93,7 +93,7 @@ export default function PropertiesPage() {
             </p>
             <button
               onClick={() => setFilters({})}
-              className="bg-blue-600 text-white px-6 py-2 rounded-md font-medium hover:bg-blue-700 transition-colors"
+              className="bg-primary-600 text-white px-6 py-2 rounded-md font-medium hover:bg-primary-700 transition-colors"
             >
               Clear All Filters
             </button>

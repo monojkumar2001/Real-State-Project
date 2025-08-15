@@ -17,7 +17,7 @@ export default function Home() {
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
               Find Your Dream Home
             </h1>
-            <p className="text-xl md:text-2xl mb-8 text-blue-100">
+            <p className="text-xl md:text-2xl mb-8 text-primary-100">
               Discover the perfect property with PrimeRealty's expert guidance
             </p>
           </div>
@@ -42,7 +42,7 @@ export default function Home() {
               <div>
                 <Link
                   href="/properties"
-                  className="w-full bg-blue-600 text-white py-3 px-6 rounded-md font-medium hover:bg-blue-700 transition-colors flex items-center justify-center"
+                  className="w-full bg-primary-600 text-white py-3 px-6 rounded-md font-medium hover:bg-primary-700 transition-colors flex items-center justify-center"
                 >
                   <Search className="h-5 w-5 mr-2" />
                   Search
@@ -55,19 +55,19 @@ export default function Home() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-16 text-center">
             <div>
               <div className="text-3xl font-bold">500+</div>
-              <div className="text-blue-100">Properties Listed</div>
+              <div className="text-primary-100">Properties Listed</div>
             </div>
             <div>
               <div className="text-3xl font-bold">150+</div>
-              <div className="text-blue-100">Happy Clients</div>
+              <div className="text-primary-100">Happy Clients</div>
             </div>
             <div>
               <div className="text-3xl font-bold">25+</div>
-              <div className="text-blue-100">Expert Agents</div>
+              <div className="text-primary-100">Expert Agents</div>
             </div>
             <div>
               <div className="text-3xl font-bold">5</div>
-              <div className="text-blue-100">Years Experience</div>
+              <div className="text-primary-100">Years Experience</div>
             </div>
           </div>
         </div>
@@ -181,7 +181,7 @@ export default function Home() {
                 />
                 <div className="p-6">
                   <h3 className="text-xl font-semibold mb-2">{agent.name}</h3>
-                  <p className="text-blue-600 font-medium mb-2">{agent.specialization}</p>
+                  <p className="text-primary-600 font-medium mb-2">{agent.specialization}</p>
                   <div className="flex items-center mb-2">
                     <Star className="h-4 w-4 text-yellow-400 mr-1" />
                     <span className="text-gray-600">{agent.rating} ({agent.reviews} reviews)</span>

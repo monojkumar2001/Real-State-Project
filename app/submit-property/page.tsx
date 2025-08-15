@@ -98,7 +98,7 @@ export default function SubmitPropertyPage() {
                   contactEmail: '', contactPhone: '', images: []
                 });
               }}
-              className="w-full bg-blue-600 text-white py-2 px-4 rounded-md font-medium hover:bg-blue-700 transition-colors"
+              className="w-full bg-primary-600 text-white py-2 px-4 rounded-md font-medium hover:bg-primary-700 transition-colors"
             >
               Submit Another Property
             </button>
@@ -130,40 +130,40 @@ export default function SubmitPropertyPage() {
             <div className="flex items-center justify-between mb-4">
               <div className="flex items-center space-x-2">
                 <div className={`w-8 h-8 rounded-full flex items-center justify-center ${
-                  formStep >= 1 ? 'bg-blue-600 text-white' : 'bg-gray-200 text-gray-600'
+                  formStep >= 1 ? 'bg-primary-600 text-white' : 'bg-gray-200 text-gray-600'
                 }`}>
                   1
                 </div>
-                <span className={formStep >= 1 ? 'text-blue-600' : 'text-gray-600'}>Basic Info</span>
+                <span className={formStep >= 1 ? 'text-primary-600' : 'text-gray-600'}>Basic Info</span>
               </div>
               <div className="flex items-center space-x-2">
                 <div className={`w-8 h-8 rounded-full flex items-center justify-center ${
-                  formStep >= 2 ? 'bg-blue-600 text-white' : 'bg-gray-200 text-gray-600'
+                  formStep >= 2 ? 'bg-primary-600 text-white' : 'bg-gray-200 text-gray-600'
                 }`}>
                   2
                 </div>
-                <span className={formStep >= 2 ? 'text-blue-600' : 'text-gray-600'}>Location</span>
+                <span className={formStep >= 2 ? 'text-primary-600' : 'text-gray-600'}>Location</span>
               </div>
               <div className="flex items-center space-x-2">
                 <div className={`w-8 h-8 rounded-full flex items-center justify-center ${
-                  formStep >= 3 ? 'bg-blue-600 text-white' : 'bg-gray-200 text-gray-600'
+                  formStep >= 3 ? 'bg-primary-600 text-white' : 'bg-gray-200 text-gray-600'
                 }`}>
                   3
                 </div>
-                <span className={formStep >= 3 ? 'text-blue-600' : 'text-gray-600'}>Details</span>
+                <span className={formStep >= 3 ? 'text-primary-600' : 'text-gray-600'}>Details</span>
               </div>
               <div className="flex items-center space-x-2">
                 <div className={`w-8 h-8 rounded-full flex items-center justify-center ${
-                  formStep >= 4 ? 'bg-blue-600 text-white' : 'bg-gray-200 text-gray-600'
+                  formStep >= 4 ? 'bg-primary-600 text-white' : 'bg-gray-200 text-gray-600'
                 }`}>
                   4
                 </div>
-                <span className={formStep >= 4 ? 'text-blue-600' : 'text-gray-600'}>Contact</span>
+                <span className={formStep >= 4 ? 'text-primary-600' : 'text-gray-600'}>Contact</span>
               </div>
             </div>
             <div className="w-full bg-gray-200 rounded-full h-2">
               <div
-                className="bg-blue-600 h-2 rounded-full transition-all duration-300"
+                className="bg-primary-600 h-2 rounded-full transition-all duration-300"
                 style={{ width: `${(formStep / 4) * 100}%` }}
               ></div>
             </div>
@@ -177,7 +177,7 @@ export default function SubmitPropertyPage() {
           {formStep === 1 && (
             <div className="space-y-6">
               <div className="flex items-center mb-6">
-                <Home className="h-6 w-6 text-blue-600 mr-2" />
+                <Home className="h-6 w-6 text-primary-600 mr-2" />
                 <h2 className="text-2xl font-bold text-gray-900">Basic Information</h2>
               </div>
 
@@ -287,7 +287,7 @@ export default function SubmitPropertyPage() {
           {formStep === 2 && (
             <div className="space-y-6">
               <div className="flex items-center mb-6">
-                <MapPin className="h-6 w-6 text-blue-600 mr-2" />
+                <MapPin className="h-6 w-6 text-primary-600 mr-2" />
                 <h2 className="text-2xl font-bold text-gray-900">Location Details</h2>
               </div>
 
@@ -359,7 +359,7 @@ export default function SubmitPropertyPage() {
           {formStep === 3 && (
             <div className="space-y-6">
               <div className="flex items-center mb-6">
-                <FileText className="h-6 w-6 text-blue-600 mr-2" />
+                <FileText className="h-6 w-6 text-primary-600 mr-2" />
                 <h2 className="text-2xl font-bold text-gray-900">Property Details</h2>
               </div>
 
@@ -435,7 +435,7 @@ export default function SubmitPropertyPage() {
                         type="checkbox"
                         checked={formData.features.includes(feature)}
                         onChange={() => handleFeatureToggle(feature)}
-                        className="mr-2 h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded"
+                        className="mr-2 h-4 w-4 text-primary-600 focus:ring-blue-500 border-gray-300 rounded"
                       />
                       <span className="text-sm text-gray-700">{feature}</span>
                     </label>
@@ -457,7 +457,7 @@ export default function SubmitPropertyPage() {
                   </p>
                   <button
                     type="button"
-                    className="mt-4 bg-blue-600 text-white px-4 py-2 rounded-md font-medium hover:bg-blue-700 transition-colors"
+                    className="mt-4 bg-primary-600 text-white px-4 py-2 rounded-md font-medium hover:bg-primary-700 transition-colors"
                   >
                     <Upload className="h-4 w-4 mr-2 inline" />
                     Select Images
@@ -471,7 +471,7 @@ export default function SubmitPropertyPage() {
           {formStep === 4 && (
             <div className="space-y-6">
               <div className="flex items-center mb-6">
-                <DollarSign className="h-6 w-6 text-blue-600 mr-2" />
+                <DollarSign className="h-6 w-6 text-primary-600 mr-2" />
                 <h2 className="text-2xl font-bold text-gray-900">Contact Information</h2>
               </div>
 
@@ -523,8 +523,8 @@ export default function SubmitPropertyPage() {
               </div>
 
               <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
-                <h3 className="font-semibold text-blue-900 mb-2">What happens next?</h3>
-                <ul className="text-sm text-blue-800 space-y-1">
+                <h3 className="font-semibold text-primary-900 mb-2">What happens next?</h3>
+                <ul className="text-sm text-primary-800 space-y-1">
                   <li>• Our team will review your property listing within 24 hours</li>
                   <li>• We'll contact you to verify details and schedule a property visit</li>
                   <li>• Professional photos will be taken (if needed)</li>
@@ -551,7 +551,7 @@ export default function SubmitPropertyPage() {
               <button
                 type="button"
                 onClick={nextStep}
-                className="px-6 py-2 bg-blue-600 text-white rounded-md font-medium hover:bg-blue-700 transition-colors ml-auto"
+                className="px-6 py-2 bg-primary-600 text-white rounded-md font-medium hover:bg-primary-700 transition-colors ml-auto"
               >
                 Next
               </button>
@@ -559,7 +559,7 @@ export default function SubmitPropertyPage() {
               <button
                 type="submit"
                 disabled={isSubmitting}
-                className="px-6 py-2 bg-blue-600 text-white rounded-md font-medium hover:bg-blue-700 disabled:bg-blue-400 transition-colors ml-auto flex items-center"
+                className="px-6 py-2 bg-primary-600 text-white rounded-md font-medium hover:bg-primary-700 disabled:bg-primary-400 transition-colors ml-auto flex items-center"
               >
                 {isSubmitting ? (
                   <>

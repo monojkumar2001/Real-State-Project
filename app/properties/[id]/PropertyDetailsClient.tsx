@@ -34,7 +34,7 @@ export default function PropertyDetailsPage({ params }: { params: { id: string }
       <div className="min-h-screen flex items-center justify-center">
         <div className="text-center">
           <h1 className="text-2xl font-bold text-gray-900 mb-4">Property Not Found</h1>
-          <Link href="/properties" className="text-blue-600 hover:text-blue-700">
+          <Link href="/properties" className="text-primary-600 hover:text-primary-700">
             Back to Properties
           </Link>
         </div>
@@ -67,7 +67,7 @@ export default function PropertyDetailsPage({ params }: { params: { id: string }
       <div className="bg-white shadow-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <div className="flex items-center justify-between">
-            <Link href="/properties" className="flex items-center text-gray-600 hover:text-blue-600 transition-colors">
+            <Link href="/properties" className="flex items-center text-gray-600 hover:text-primary-600 transition-colors">
               <ArrowLeft className="h-4 w-4 mr-2" />
               Back to Properties
             </Link>
@@ -76,7 +76,7 @@ export default function PropertyDetailsPage({ params }: { params: { id: string }
                 <Heart className="h-4 w-4" />
                 <span>Save</span>
               </button>
-              <button className="flex items-center space-x-1 text-gray-600 hover:text-blue-600 transition-colors">
+              <button className="flex items-center space-x-1 text-gray-600 hover:text-primary-600 transition-colors">
                 <Share2 className="h-4 w-4" />
                 <span>Share</span>
               </button>
@@ -150,7 +150,7 @@ export default function PropertyDetailsPage({ params }: { params: { id: string }
             <div className="bg-white rounded-lg shadow-md p-6 mb-8">
               <div className="flex justify-between items-start mb-4">
                 <div>
-                  <span className="bg-blue-100 text-blue-800 px-2 py-1 rounded text-sm font-medium">
+                  <span className="bg-primary-100 text-primary-800 px-2 py-1 rounded text-sm font-medium">
                     For {property.category === 'buy' ? 'Sale' : 'Rent'}
                   </span>
                   <h1 className="text-3xl font-bold text-gray-900 mt-2">{property.title}</h1>
@@ -160,7 +160,7 @@ export default function PropertyDetailsPage({ params }: { params: { id: string }
                   </div>
                 </div>
                 <div className="text-right">
-                  <p className="text-3xl font-bold text-blue-600">
+                  <p className="text-3xl font-bold text-primary-600">
                     {formatPrice(property.price, property.category)}
                   </p>
                 </div>
@@ -204,7 +204,7 @@ export default function PropertyDetailsPage({ params }: { params: { id: string }
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
                   {property.features.map((feature, index) => (
                     <div key={index} className="flex items-center">
-                      <div className="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
+                      <div className="w-2 h-2 bg-primary-600 rounded-full mr-3"></div>
                       <span className="text-gray-700">{feature}</span>
                     </div>
                   ))}
@@ -238,7 +238,7 @@ export default function PropertyDetailsPage({ params }: { params: { id: string }
                 />
                 <div>
                   <h4 className="font-semibold text-gray-900">{property.agent.name}</h4>
-                  <p className="text-blue-600 text-sm">{property.agent.specialization}</p>
+                  <p className="text-primary-600 text-sm">{property.agent.specialization}</p>
                   <div className="flex items-center mt-1">
                     <Star className="h-4 w-4 text-yellow-400 mr-1" />
                     <span className="text-sm text-gray-600">
@@ -263,7 +263,7 @@ export default function PropertyDetailsPage({ params }: { params: { id: string }
               >
                 View Profile
               </Link>
-              <button className="w-full bg-blue-600 text-white py-2 rounded-md font-medium hover:bg-blue-700 transition-colors">
+              <button className="w-full bg-primary-600 text-white py-2 rounded-md font-medium hover:bg-primary-700 transition-colors">
                 Call Agent
               </button>
             </div>

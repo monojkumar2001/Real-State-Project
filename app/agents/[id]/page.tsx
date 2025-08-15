@@ -19,7 +19,7 @@ export default function AgentProfilePage({ params }: { params: { id: string } })
       <div className="min-h-screen flex items-center justify-center">
         <div className="text-center">
           <h1 className="text-2xl font-bold text-gray-900 mb-4">Agent Not Found</h1>
-          <Link href="/agents" className="text-blue-600 hover:text-blue-700">
+          <Link href="/agents" className="text-primary-600 hover:text-primary-700">
             Back to Agents
           </Link>
         </div>
@@ -32,7 +32,7 @@ export default function AgentProfilePage({ params }: { params: { id: string } })
       {/* Header */}
       <div className="bg-white shadow-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-          <Link href="/agents" className="flex items-center text-gray-600 hover:text-blue-600 transition-colors">
+          <Link href="/agents" className="flex items-center text-gray-600 hover:text-primary-600 transition-colors">
             <ArrowLeft className="h-4 w-4 mr-2" />
             Back to Agents
           </Link>
@@ -51,7 +51,7 @@ export default function AgentProfilePage({ params }: { params: { id: string } })
                   className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
                 />
                 <h1 className="text-2xl font-bold text-gray-900 mb-2">{agent.name}</h1>
-                <p className="text-blue-600 font-medium mb-3">{agent.specialization}</p>
+                <p className="text-primary-600 font-medium mb-3">{agent.specialization}</p>
                 <div className="flex items-center justify-center mb-4">
                   <Star className="h-5 w-5 text-yellow-400 mr-1" />
                   <span className="font-medium">{agent.rating}</span>
@@ -72,7 +72,7 @@ export default function AgentProfilePage({ params }: { params: { id: string } })
 
               <div className="grid grid-cols-3 gap-4 mb-6 text-center">
                 <div className="bg-blue-50 rounded-lg p-3">
-                  <div className="text-2xl font-bold text-blue-600">{agent.experience}</div>
+                  <div className="text-2xl font-bold text-primary-600">{agent.experience}</div>
                   <div className="text-sm text-gray-600">Years</div>
                 </div>
                 <div className="bg-green-50 rounded-lg p-3">
@@ -85,10 +85,10 @@ export default function AgentProfilePage({ params }: { params: { id: string } })
                 </div>
               </div>
 
-              <button className="w-full bg-blue-600 text-white py-3 rounded-md font-medium hover:bg-blue-700 transition-colors mb-3">
+              <button className="w-full bg-primary-600 text-white py-3 rounded-md font-medium hover:bg-primary-700 transition-colors mb-3">
                 Call Now
               </button>
-              <button className="w-full border border-blue-600 text-blue-600 py-3 rounded-md font-medium hover:bg-blue-50 transition-colors">
+              <button className="w-full border border-blue-600 text-primary-600 py-3 rounded-md font-medium hover:bg-blue-50 transition-colors">
                 Send Message
               </button>
             </div>
@@ -109,7 +109,7 @@ export default function AgentProfilePage({ params }: { params: { id: string } })
 
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div className="text-center p-4 bg-gray-50 rounded-lg">
-                  <Award className="h-8 w-8 text-blue-600 mx-auto mb-2" />
+                  <Award className="h-8 w-8 text-primary-600 mx-auto mb-2" />
                   <h3 className="font-semibold text-gray-900">Expert Knowledge</h3>
                   <p className="text-sm text-gray-600">Specialized in {agent.specialization.toLowerCase()}</p>
                 </div>

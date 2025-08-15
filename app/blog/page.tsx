@@ -79,7 +79,7 @@ export default function BlogPage() {
               </div>
               <div className="md:w-1/2 p-8">
                 <div className="flex items-center text-sm text-gray-600 mb-3">
-                  <span className="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs font-medium mr-3">
+                  <span className="bg-primary-100 text-primary-800 px-2 py-1 rounded text-xs font-medium mr-3">
                     Featured
                   </span>
                   <Calendar className="h-4 w-4 mr-1" />
@@ -100,7 +100,7 @@ export default function BlogPage() {
                   </div>
                   <Link
                     href={`/blog/${featuredPost.id}`}
-                    className="bg-blue-600 text-white px-6 py-2 rounded-md font-medium hover:bg-blue-700 transition-colors inline-flex items-center"
+                    className="bg-primary-600 text-white px-6 py-2 rounded-md font-medium hover:bg-primary-700 transition-colors inline-flex items-center"
                   >
                     Read More
                     <ArrowRight className="ml-2 h-4 w-4" />
@@ -142,7 +142,7 @@ export default function BlogPage() {
                     </div>
                     <Link
                       href={`/blog/${post.id}`}
-                      className="text-blue-600 hover:text-blue-700 font-medium text-sm inline-flex items-center"
+                      className="text-primary-600 hover:text-primary-700 font-medium text-sm inline-flex items-center"
                     >
                       Read More
                       <ArrowRight className="ml-1 h-3 w-3" />
@@ -155,9 +155,9 @@ export default function BlogPage() {
         </div>
 
         {/* Newsletter Signup */}
-        <div className="mt-16 bg-blue-600 rounded-lg p-8 text-center text-white">
+        <div className="mt-16 bg-primary-600 rounded-lg p-8 text-center text-white">
           <h2 className="text-2xl font-bold mb-4">Stay Updated</h2>
-          <p className="text-blue-100 mb-6 max-w-2xl mx-auto">
+          <p className="text-primary-100 mb-6 max-w-2xl mx-auto">
             Subscribe to our newsletter and get the latest real estate insights, market updates, and expert tips delivered to your inbox.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
@@ -166,7 +166,7 @@ export default function BlogPage() {
               placeholder="Enter your email"
               className="flex-1 px-4 py-2 rounded-md text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-300"
             />
-            <button className="bg-white text-blue-600 px-6 py-2 rounded-md font-medium hover:bg-gray-100 transition-colors">
+            <button className="bg-white text-primary-600 px-6 py-2 rounded-md font-medium hover:bg-gray-100 transition-colors">
               Subscribe
             </button>
           </div>

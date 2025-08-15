@@ -24,7 +24,7 @@ export default function PropertyCard({ property, showSaveButton = true }: Proper
           className="w-full h-48 object-cover"
         />
         <div className="absolute top-4 left-4">
-          <span className="bg-blue-600 text-white px-2 py-1 rounded text-sm font-medium">
+          <span className="bg-primary-600 text-white px-2 py-1 rounded text-sm font-medium">
             For {property.category === 'buy' ? 'Sale' : 'Rent'}
           </span>
         </div>
@@ -43,11 +43,11 @@ export default function PropertyCard({ property, showSaveButton = true }: Proper
       <div className="p-6">
         <div className="flex justify-between items-start mb-2">
           <h3 className="text-lg font-semibold text-gray-900 mb-1">
-            <Link href={`/properties/${property.id}`} className="hover:text-blue-600 transition-colors">
+            <Link href={`/properties/${property.id}`} className="hover:text-primary-600 transition-colors">
               {property.title}
             </Link>
           </h3>
-          <p className="text-xl font-bold text-blue-600">
+          <p className="text-xl font-bold text-primary-600">
             {formatPrice(property.price, property.category)}
           </p>
         </div>

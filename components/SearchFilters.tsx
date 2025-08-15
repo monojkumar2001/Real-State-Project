@@ -124,7 +124,7 @@ export default function SearchFilters({ filters, onFiltersChange, onSearch }: Se
         <div className="flex items-center space-x-4">
           <button
             onClick={() => setShowAdvanced(!showAdvanced)}
-            className="flex items-center space-x-2 text-gray-600 hover:text-blue-600 transition-colors"
+            className="flex items-center space-x-2 text-gray-600 hover:text-primary-600 transition-colors"
           >
             <Filter className="h-4 w-4" />
             <span>{showAdvanced ? 'Less Filters' : 'More Filters'}</span>
@@ -139,7 +139,7 @@ export default function SearchFilters({ filters, onFiltersChange, onSearch }: Se
         </div>
         <button
           onClick={onSearch}
-          className="bg-blue-600 text-white px-6 py-2 rounded-md font-medium hover:bg-blue-700 transition-colors flex items-center space-x-2"
+          className="bg-primary-600 text-white px-6 py-2 rounded-md font-medium hover:bg-primary-700 transition-colors flex items-center space-x-2"
         >
           <Search className="h-4 w-4" />
           <span>Search Properties</span>

@@ -27,7 +27,7 @@ export default function AgentsPage() {
               />
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">{agent.name}</h3>
-                <p className="text-blue-600 font-medium mb-3">{agent.specialization}</p>
+                <p className="text-primary-600 font-medium mb-3">{agent.specialization}</p>
                 
                 <div className="flex items-center mb-2">
                   <Star className="h-4 w-4 text-yellow-400 mr-1" />
@@ -62,7 +62,7 @@ export default function AgentsPage() {
                 
                 <Link
                   href={`/agents/${agent.id}`}
-                  className="block w-full bg-blue-600 text-white text-center py-2 rounded-md font-medium hover:bg-blue-700 transition-colors"
+                  className="block w-full bg-primary-600 text-white text-center py-2 rounded-md font-medium hover:bg-primary-700 transition-colors"
                 >
                   View Profile
                 </Link>
